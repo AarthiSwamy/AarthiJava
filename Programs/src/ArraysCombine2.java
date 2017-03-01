@@ -31,8 +31,5 @@ public class ArraysCombine2 {
 		}
 		
 		System.out.println("Final value at position " );
-		
 	}
-	
-
 }
