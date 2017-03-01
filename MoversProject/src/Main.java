@@ -17,7 +17,7 @@ public class Main {
 /**
 Movers company
 
-Order Intake/Accept or Deny
+Order In take/Accept or Deny
 Incoming Request should be within 5miles
 
 Determining Size 
