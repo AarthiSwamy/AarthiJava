@@ -1,22 +1,22 @@
 public class Fibanacci {
 
 	/**
-	 * Find the nth of the Fibanacci's series
+	 * Find the nth number of the Fibanacci's series
 	 */
-	private int num;
 
-	public int Fibanacci(int num) {
-		// Input validations
-	
-		int n = num;
-		if (num <= 1) {
-			System.out.println(n);
-			return n;
-		} else {
-			n = ((num - 1) + (num -2));
-			System.out.println(n);
-			return n;
-		}
+	public static void main(String[] args) {
+		System.out.println(Fibanacci(2));
+	}
+
+	public static int Fibanacci(int num) {
+		System.out.println(num);
+
+		int fibanacci;
+		if (num == 0)
+			return 0;
+		else if (num == 1)
+		return 1;
+		return Fibanacci(num - 1) + Fibanacci(num - 2);
 
 	}
 

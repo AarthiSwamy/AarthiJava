@@ -8,7 +8,7 @@ public class Main {
 	
 		// TODO Auto-generated method stub
 	Fibanacci fibanacci = new Fibanacci();
-	fibanacci.Fibanacci(2);
+	fibanacci.Fibanacci(20);
 	}
 	
 	public static String compression(String name)
