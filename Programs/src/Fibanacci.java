@@ -5,7 +5,7 @@ public class Fibanacci {
 	 */
 
 	public static void main(String[] args) {
-		System.out.println(Fibanacci(2));
+		System.out.println(Fibanacci(1));
 	}
 
 	public static int Fibanacci(int num) {
@@ -16,6 +16,7 @@ public class Fibanacci {
 			return 0;
 		else if (num == 1)
 		return 1;
+		
 		return Fibanacci(num - 1) + Fibanacci(num - 2);
 
 	}

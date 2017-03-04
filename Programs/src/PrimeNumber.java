@@ -1,30 +1,42 @@
-
 public class PrimeNumber {
 
 	/**
-	 * @param args
+	 * Find the nth prime number
 	 */
+
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-	primeNumber(6);
-
+		System.out.println("Primenumber is " + primeNumber(6));
 	}
-	
-	public static int primeNumber(int n)
-	{
-		int primeNumber=0;
-		System.out.println(n);
-		
-		if(n==0)
-		return 0;
-		
-		else if(n==1)
-		return 1;
-		
-		else if(n==2)
+
+	public static int primeNumber(int n) {
+		System.out.println("incoming " + n);
+		if (n == 1)
 			return 2;
-		
-		return primeNumber(n%2);
-	}
 
+		if (n == 2)
+			return 3;
+
+		int i = 4;
+		int counter = 2;
+
+		while (counter<= n) {
+
+			if (i % 2 != 0) 
+			
+			{
+				return 0;
+				
+			}
+				
+				else if(i % 3 != 0) {
+				counter++;
+				if (counter == n);
+				
+			}
+			}
+			i++;
+
+		return i;
+
+	}
 }
